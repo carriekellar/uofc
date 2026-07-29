@@ -34,31 +34,6 @@ Student contact details belong in an approved guardian/supervisor system, not th
 | R-104 | Ishmel | Land and Earn / Baxus | Primary program-manager stakeholder in the prototype PRD; likely related to the earlier PRI transcript reference | Carrie | Active | Confirm preferred name, Baxus/PRI relationship, and contact route | Name appears as Ishmel in PRD |
 | R-105 | Nancy | Independent practitioner / midwifery | Credentialing client and proposed clinical pilot | Carrie | Active | Verify professional role, entity, jurisdiction, and approved scope | Required |
 
-## Podcast and community network
-
-| ID | Person | Context in notes | Relationship owner | Stage | Next action | Verification |
-|---|---|---|---|---|---|---|
-| R-201 | Josh | Current network; possible philanthropic introduction | Carrie/Ethan — verify | Connected | Define relevant role and warm-introduction path | Identity required |
-| R-202 | Ethan | Co-host/participant perspective; Nasdaq contact mentioned | Carrie | Active | Define podcast role and identify the Nasdaq contact | Details required |
-| R-203 | Adam Anzuoni | Associated with Cursor in notes | Unassigned | Named | Verify identity, role, and warm path before outreach | Required |
-| R-204 | Cailin | Prospective interviewee | Unassigned | Named | Identify relationship owner and editorial angle | Required |
-| R-205 | Bekka | Prospective interviewee | Unassigned | Named | Identify relationship owner and editorial angle | Required |
-| R-206 | Dev | Prospective interviewee | Unassigned | Named | Identify relationship owner and editorial angle | Required |
-| R-207 | “Anabology” founder | Founder prospect; phonetic/incomplete note | Unassigned | Named | Resolve company and person | Required |
-| R-208 | Steven Strobe | Crypto-related prospect in notes | Unassigned | Named | Resolve spelling, role, and company | Required |
-| R-209 | Anatoly | Prospective interviewee | Unassigned | Named | Resolve identity and editorial angle | Required |
-| R-210 | Crypto Kelly or firm | Crypto specialist prospect | Unassigned | Named | Resolve person/firm and relationship path | Required |
-| R-211 | Denim-company contact | Company associated with a Rosenthal investment | Unassigned | Named | Identify company, person, and introduction path | Required |
-
-## Aspirational podcast relationships
-
-| ID | Person | Stage | Relationship path | Next action |
-|---|---|---|---|---|
-| R-301 | Michael Rubin | Future | Unknown | Do not outreach until show format and warm path exist |
-| R-302 | Matthew McConaughey | Future | Unknown | Define editorial reason and warm path |
-| R-303 | Mark Cuban | Future | Healthcare/pharmacy or broader network — unconfirmed | Clarify the relevant introduction |
-| R-304 | Mark Zuckerberg | Future | Philanthropic connection through Josh — unconfirmed | Identify the actual intermediary and purpose |
-
 ## Organization prospects
 
 Named Berea businesses and public contact details remain in the [supplied opportunity matrix](../data/berea-small-business-ai-opportunities.csv). Move an organization into this CRM only after:
