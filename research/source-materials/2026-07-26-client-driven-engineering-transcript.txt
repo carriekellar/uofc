@@ -1,0 +1,204 @@
+
+Now, yeah,
+Just thank you.
+Do you guys like my necklace? It's pretty fancy. Hi, Welcome inaugural freshman year class of University of College first ever university lecture happening right now. C customer S student You guys E me engineer right now. We have four clients. We have four customers. We have. Ismailia from P R I right Jenny from P R I, we have Amy the real estate agent, and we have Nancy right our nurse practitioner. Each of these people outlined like a problem that they need help with right. The solution to their problem is some. Basically it's this it's like some little app some little like you know, Like website, some little tool that they can use, and they can log into to.
+Work on bookkeeping or find new homes in Berea, or get their credentialing set up appropriately, or do any number of these things. And what university of colleges is basically how we're going to scale. You guys being able to manage multiple clients way more than just one at a time. Find new people and then also learn. From an engineering perspective, how to take the prototypes that we built and actually make them real, real software, real websites, real tools for these guys. And then, ongoing, how to manage making sure that everything's working and updating them and checking in and all these different things. Sort of starting from the client interaction. Do you guys remember from the camp? Kind of how we did that.
+Just like interviewing them, listening to their problems. It's pretty much the exact same thing. But now, we're no longer at camp. The tool I'm gonna build will basically let you guys call them, text them, video call, email, whatever. And that will transcribe the conversation. And then that will create the scope for their initial product that they want. But then also for any small tweaks that they want, or changes, or bug updates, or anything along those lines. And then that transcript. And the tool that I am building is basically this arrow to then update the GitHub repository that holds all the code. So AI is gonna be doing all of that. But then you guys will just be able to make sure that AI did it correctly. It updated the database correctly and the deployment of the website right on Versel or whatever tool we wanna use.
+Went out and the changes are there and live, and they can go in and log in. And then you guys will basically be the person they're talking to for all of these small tools and small businesses. What's kind of sick is that for example, if you want to work with Amy on real estate, she actually referred us because I chatted with her last week to this other real estate agent. This guy named Richard. So now if you want to build some sort of small tool set for them, both of them, what we can do is aggregate what their problem is because they're probably going to have the same problem. And then Richard has now solved Richard's problems, so Richard refers you to Bob, and then Bob refers you to Jared. And then you're going through this whole process. And then basically you've built a business.
+From the fact that you've solved all these problems for people, now you can aggregate the solution because they're all probably dealing with a similar problem. That means the initial prototype to production code you wrote, that little app. The next app you have to make that's similar to that is ten times easier to make and requires way less of a headache. And then you're sort of managing a very similar thing across multiple different people. This is the plan for how we're going to build all these things for small businesses, and you've all been enrolled. Your parents enrolled you today. I hope that's all good. Woo hoo. And then you'll obviously meet all the time and I'll help you building all this stuff.
+And I am coming up with like a curriculum. So you know how you guys want to build the agent, But I had to sit you down and like make you understand, like command line and Claude and Brew install. And like all these different things, like GitHub and all these things. That's what we're going to be like learning basically to begin with. And I am putting together like a little like stack. So not only will you be able to like build these little tools for everybody else, but then you can have the tactical, you know basics of these AI systems to be able to build an Do like whatever the heck you want on your own. And so, Jun's, it's awesome that you did the Python scripting thing because you have a head start on all this stuff, which is like kick ass. So basically, I think that I don't know what time we have like an hour till dinner, right? Cool. Firstly any questions? Comments feedback thoughts.
+Nothing. Do you want to do this or no? Yeah. Cheers. That's great. What are you thinking, Lydia? That's important. Oh cool. Half you want to do it? No okay sweet. Alright Well that's great. Because we don't have this little base camp slacky thing right now. I think you guys have laptops right with you. So we'll just start off very basic. We'll just go through some command line interface stuff and just setting up, make sure you guys all have GitHub accounts, and we'll just start there today. But then I'll be working on this over the next couple days. And then you guys can all be introduced to each of the oh also, sorry. So I was thinking just to start off if this sounds alright.
+June can work with Amy, the real estate agent, and then Richard, the next real estate agent. Lydia, if you want to work with Jenny on the bookkeeping thing. And then your dad also has a project that aligns with that. J L. If you are good to work with Ismaila, the other guy who worked at PRI for that kind of tool to start off with. And then you and I are going to work on the actual boot camp tool to get it up and running. And then I think A J, Nancy's kid is gonna work with Nancy on some of the credentialing stuff. So you'll each just have one project to start off as we get this up and running. And I will give you guys all the cause I like there's little prototypes that I have so I'll get that all set up so that you guys can have that. But today we'll just do command line, basically curriculum. Sweet? You getting your laptop?
+You and everyone else, I have a laptop for you. It's all right. This will be good. I got your notes.
+Disappeared. Oh, June's is gonna like. She's like, a structured organized work time? Absolutely not. Let me go do my own thing.
+How do you know that it's recording, Brock? It has a little button.
+It's red out. It's actually one thing you can't exactly tell if it's recording.
+It's okay. I'm okay with waiting.
+I'm getting this one set up for you.
+What? They spell 'cow' 'milk' 'farm'?
+It's Kowloon.
+We're just going to get set up with the command line today.
+Oh, okay.
+Abhi, you're just gonna use my computer.
+And then when this one's up. So who has a GitHub account? You guys. That's all right. We'll get you on one. Can you guys all? And then who has a repository pulled locally from GitHub? No? Okay awesome. Can you go to github.com.
+Actually, we can even just do this thing where you use my GitHub account for now, and then we can make you one later. Is that sound okay? Cool beans. So you guys all have a GitHub account? That's great. Can you go to your terminal? This is your terminal. Cool. Is your GitHub like if you type like.
+If you could type `git -- help`, does it pop up with anything? It should on yours.
+You just stayed there. We'll cancel that for now because we can do that later. You need to understand Git Hub before you get that done. Terminal. Then if you write `git` space-- help. Do you have that? Press enter. Great, so you have Git installed. Cool.
+So you all need to make a directory. Does anybody know what a directory is? I told you. Or does anybody know what a repository is? It's a folder. You guys know what a folder is, yeah? On your computer. So a directory and a repository are the exact same thing as a folder. They're just different words for it. So the terminal is just a way to interact with your laptop without using the front end stuff. There's this command called hold on okay this is lecture.
+101. Lecture 101
+So.
+So. You know I'll just erase all this hold on. Where's my phone?
+I just didn't wanna.
+So your terminal is your way to access anything you can do literally anything on your laptop from the terminal. You can open up files, launch things, run code, create any different file types, change directories and do all these different things. Right now, you typically interact with your laptops through a graphical user interface. You're opening up these apps, downloading them from the internet, clicking open on them and then using them. That's using a graphical user interface. There's also a command line interface. A GUI is just a graphical user interface. It makes it nice and easy for you to use and click around.
+Get understood in AI. For any of these tools that I am going to teach you and what we're going to be updated in, AI lives basically at the level of your laptop that is called the operating system. It basically lives outside of all these other applications that you use. That's why you have to use the terminal to interact with these things. The terminal is what you pull up. This blinker that's there is called the command line interface. People typically call this the CLI. What you can do is download different things that are made for the CLI, because terminal is branded by Apple. The CLI is the command line interface of your laptop, which is just basically the terminal. Now you can run different commands in the command line interface. A couple of commands.
+Do you remember any of the commands that we talked about? The first one is ls. This just stands for list. So if you just type ls enter, this lists all the current folders. You can type it and see.
+You guys see all the available folders. There's nothing in here. Here, just type ls and then enter. See? Look at all these different things. Now cd means say it right now. You do know don't you? No? You don't know?
+Close. This means change directory. So this means when you double click on a folder, that's what this is. If you want to go into a folder, you do cd and then the name of the folder. But if you want to step out of a folder, then you do cd space dot. You guys can try going into one. It's like cd space, folder name. Or cd space dot. Say you want to go which one do you want to go into?
+Maybe try buzz go there, cd space. Buzz and then press enter. And then once you're in there now you can write ls again. Are you doing it? You're not doing it. I did do it. Really? Did you do it? CD downloads. Now you can list. So now you can go `ls` and see what's in your downloads, but it'll probably break your terminal because you probably have a million downloads. You getting it? Yeah. Working? Working? Nice! Ooh! Okay great! Now to get back to where you were before just go `cd.`. Oh no there's nothing to click on right there. Don't worry about it.
+You actually can't click anything on your terminal. Now you go cd space dot and then enter. Hell yeah, see, and now you're back to where you were before. So that's changing directories. Sometimes with all the different projects you guys are going to be running, you have to make a directory. You have to make a new folder. You have to make like a home for all this, like code and everything you're going to do. That is mkdir. Then that means make directory. So you can give it a name. So for example, for like Amy or like for the clients, maybe you just call it like the name of the client. We'll come up with like some standard naming system.
+But you guys can just make a folder.
+With any name that you want? And if you're able to get into your desktop folder of your computer by changing the directory where you are. Then you make a folder on your desktop, it'll pop up and you'll be able to see it. So you can try that out. Just make one. So you've actually used it, and then you can remember it. These are the folders, right? These are the folders. Yeah exactly good job.
+Those are all the folders. Here, let me show you.
+There's so many things open. This is crazy.
+Seeum
+Where are we? See desktop right there?
+That's this, right? So you're CD into your desktop. Now you can go M K D I R and then make a new folder. You can call it app if you want. Did you make one? So see what you did. Why did you make two separate ones?
+So this one. But yep, no sorry go ahead. I didn't know when you name it, do you do it on the same line or do you wait for it to.
+So when you name it everything is on the same line. You can't do two lines. So if you do make a directory, and then the name of the directory, this is very important for a terminal. Spaces it doesn't understand spaces. Spaces are not a thing. If you want to make. This actually probably just made, if you go L S see it made test, see it didn't if you do make test directory, it totally forgets everything after test. So now you can have test. Let's see.
+Ooh, good job. But right after you have to go space and then the name of the directory name. See this usage, make dir directory name. So you can make one with whatever name you want. Should I do it again? Do it again but just add the name. You guys did it? And you did ls? Good job! See
+You're getting it. Ls Wait did you make a Did you make one? and then I changed the. Wait cheers!
+How did you change the name? Just on your desktop. You can actually change the name through it. Okay, sweet, you did it? Cheers. Okay, great, awesome. The other important one. And this is the last one. pwd stands for present working directory. It means where you're at. Actually, on the command line. How like this on the left hand side, it says your user. And then it says that word desktop. That means where you are within your directory folder structure. If you're like oh I'm lost I don't know where I am. You just type pwd. And then that will give you the present place that you are. If you all type pwd right now, it'll give you a path to that directory. pwd enter. Yeah, perfect, see.
+And so, on your operating system, right at the very basic bones of your laptop. Your laptop is able to have a bunch of different users, lots of different configurations. The users folder is like the most basic one, and then you can have multiple different users. So this just means that you're at users, for you, you're at Carrington Keller me and then desktop, which is shortened to desktop. Cool. That's pretty much it. Yeah, I think that's all you need to know for navigating around the terminal, and incorporating and using AI at different levels of things. So the next thing we did was, we were going to use the GitHub authentication. So you're going to create yes, you all made a folder right? Okay, so now you're going to go to GitHub.
+And you're gonna create a repository. You can just go online to GitHub to create a repository. I will show you. You just gotta open up the internet.
+Awesome. What should I call it?
+You can call it whatever you want. Hold on, I'll actually make one for you guys to clone. Hold on, give me one second. This is my laptop. One second.
+Okay. Okay,
+So you guys are gonna go. You're gonna type this command. Actually, can you guys search on GitHub to find my user Carrie Keller? That's how you spell it. I don't know if you're able online to find me. That's an R and an I. And then there should be a repo. You can just find me. Find me through there. Perfect.
+There's a new repository I made. So this is me on GitHub. I just made a new one, so if you go under repositories, you see U of C. So you're going to click into that one and it's totally empty. My gosh. 1400 contributions in the last year. Wow. I'm really busy.
+Thanks. Thanks. Okay.
+What to tell you?
+You only have four contributions here.
+That's funny. That's funny. That's funny.
+You guys should all be able to refresh. You see that? Now see the green button code? See how it says HTTPS and then has this option? So what we're going to do is we're going to run another command in the terminal called git clone. It's two words.
+So git is the package. Typing git means that you're accessing all of the instructions that git has. Then you type clone. So git space clone space and then you copy that URL. For which repository? The one oh sorry, here go to all the repositories. And then UFC okay. Or see so you can do that from there, but the other way to get it is see this code. And then see it says HTTPS. Do it there. And then press enter. And then see how it says cloning in remote blah. Then you guys see how now on your command line after you ran that.
+In your command line, after you ran that, it says 'cloning into U of C,' right? So now you can. How do you get into that directory now? How to get into that folder? I think you do. Very simple. I believe in you guys. No? Yeah.
+Yay. Did that was that so hard? Good job. Awesome. So you just CD into UFC. Yay. Now you're going to download an application from the internet. It's called Cursor. So go to Cursor. It's so accurate.
+Great. And download that. This is typically easy.
+I think we're going to hotpot for dinner.
+Our dad's obsessed with hotpot. Really? He like brushed.
+It off as a Gen Z thing.
+Me and him went once when we were on a trip together, then we went again and now he's obsessed with it.
+Open it.
+He's the one who wanted to go tonight. Nice!
+So now I want to open up Cursor. Cursor is what they call an IDE. Now this will probably be a thing of the past with AI, but kind of important to know. What does IDE stand for? I should know this.
+An ID is basically like where you execute, look at code, use code. Integrated Development Environment. Ooh, So what you can do. I remembered. Thanks ChatGPT. So Cursor is an IDE. One could say that Codex or Claude are also IDEs; they're just fancier IDEs. This just means that it's an application that you now as engineers use to make code, coding to do coding. It's been a long weekend. So if you open up Cursor and then you so open up Cursor please. Can you do it? It's I already have it downloaded. What?
+You don't want to download it twice, so let's not do that. Then I guess I want you to sign up. Just make an account.
+Oh wait, this is SSH.
+Into my other laptop. Crazy girl, what are you doing? You trying to hack me? What's going on? Here's the cursor for you.
+Good job. Continue with GitHub, please. And thank you. Looking.
+Good. I don't think you need to.
+It's so much fun.
+Just for me. Thank you.
+Just for you. Very good. Just for you. I'll get us on a bigger plan once you guys actually know how to use it. Huh? Just for you, just creating an account just for you,
+Don't set up a pro plan. Don't pay them any money. Fuck it. You don't have to, but whatever. Yay! Connect to GitHub. Nice! Brilliant! I know they really want all your stuff.
+It's not. I don't know. Do you think my shirt is vintage?
+You wore it yesterday. I didn't. You did! For dinner?
+Then did you wear this two days ago? No, maybe you're not sure. You know, I think it was your Y2K outfit.
+That's one I was like
+Oh wait, that's so fair.
+I queued it. That's such a cute photo.
+La, you have the desktop app?
+Oh yeah Oh no I am in the browser Nice.
+Opini tapa Good job again, Good job signing in because it hates all of us.
+Gorgeous. Now see this little IDE button? See that? That takes you to the IDE. Wow! IDE right there? Wow! Don't install any of the plugins. Screw the plugins. You guys are in the IDE? Yeah? See this teeny tiny little IDE button right there? It's trying to give you like a cloud code thing to do. And like that, we can get there, but skip all this shit. Please. Cheers. Now you're gonna open project. And the project you're gonna open is U of C.
+What? Wait, was I swearing?
+It's because I'm tired. Maybe you could use the command present working directory to find it on your terminal and then figure out which folder it's in.
+Is this something like Visual Studio Code?
+It's exactly that just AI. See, so desktop.
+See, nice. Cool. So. Yes. Fam, so here's what's up, right? Let me revert your attention to the door to the board. You guys know all these, right? There will be a pop quiz at our next lesson.
+Can somebody explain to me what the cloud is? This is a cloud. So that means that it is not stored locally. This is us humans.
+We have our little laptops. That is little data on them and things are stored. We can sync data to the cloud, right? Like your photos for example. Those aren't stored on the device. Apple stores those in all their little server farms which are data centers. Which is just technically the cloud. GitHub, you can think of GitHub as its own mini cloud-to-local configuration. So when you create a repository on github.com, you are opening up a little file in the cloud for the information that you want to store. Right?
+I created ufc. Kerry forward slash ufc. But if you noticed, all of you now can pull or clone that repository. You can pull from the cloud. This is pulling information. I'm pulling. And then if I'm taking information and I'm pushing it to the cloud. I'm pushing. I from my computer can make an update to this repository up here UFC. And then, you guys, will now. This will be updated. But it's not automatically updated on all of your laptops, because you've pulled a previous, older version of what was in the repository. What this means is that.
+For you, the photos on your phone being uploaded to the cloud on Apple. That's just you uploading photos to the cloud easily. They know it's up there. It's just you on your phone with your photos. There's only one user. It's just one to one. It's consistently synced. It's syncing all the time. It's always there, updated constantly. You never need to worry that your local phone is different than what's on the cloud. Because it's constantly just pulling information to you. And this works because there's only one of you and it's only stored in one place on the cloud. That's the reason this works so that it makes it super synchronous. The complexity. When you take this to a GitHub model, it's that we're all going to be working on all of these different repositories. So you have a one-to-one problem. Like one-to-one. One cloud, one person.
+Now you have one cloud, like one repository in the cloud, and multiple people. This is me because I'm Carrie. This is Junya because she's shorter than me. So now I'm trying to update this folder. You're trying to update this folder. There's multiple versions of this going on up here, and I'm on an older version than you are, and you just pushed changes to the cloud that are updated, and it gets really confusing to see what's actually up to date and what the most consistent stream of information is. That's what GitHub is. So Git or GitHub, GitHub is the cloud. This is GitHub. You guys being on the command line running Git. That's down here. And Git is a set of tools that you use through the command line to literally push code to the cloud.
+Or pull code from the cloud. You can stage code, you can change things. This is a consistent running version history of all the changes that everybody has ever made to this repository. Locally, you have your own consistent running changes of all the code that you've made to this repository as well. So all this to say that whenever anything is on your local machine and it's not in the cloud, that means you are the only person in the whole entire universe who has that code on your machine. The second it's pushed to the cloud, now it's like it's in a private repository, so you really only have access to it. But you could burn your computer, log into GitHub from your phone and you'll be able to see it there. It's just like saving it. Not too complicated.
+But Git also means that June's and I and Lydia and Jet can all work on the same project together, and we can keep it up to date. And we can all understand what we're working on with each other. Any questions about that just to begin with? No. Cool. So now you are probably going to ask, okay, that's great Carrie, but how do I actually send data to the cloud? And how do I actually get data from the cloud? Git clone command that we ran, I think you only run that at the very, very beginning of any project. The commands for the commands that you need to run to get code to and from the cloud. There's four commands that you pretty much need to know. So you just learned four ls cd, make directory present working directory, right? And now there's four for git, and that's kind of all you need to know for this AI stuff. And then we can get into the fun parts of it.
+So two of the commands are already here. There is a git pull and there is a git push. Git pull pulls from the cloud to your local working directory. If you are updating a file that you've called, like I have a file I am in UC. I have a file called kerry dot txt. And JL has already pushed up here, a file called jl dot txt. So I'm Carrie. I don't have JL's file yet. But I have this new file called carrie dot txt. And I run git pull. Now my directory is going to have JL's file and my file, but JL still cannot see my file because I haven't pushed it yet. But in order to get things to be pushed to the cloud.
+There's three processes that you have to do. The first thing that you have to do is, sorry, there's four. I apologize. The first thing that you run is git status. Git status is sort of like ls or listing. It just tells you what the heck is up. You can all run git status enter right now in this repository, and you'll get an output if you want to run it just to see what's up.
+In your terminal, yes. And it's going to say, Oh hey I'm on this like one branch. Nothing's going on. Everything is clean right? It's up to date with origin main so. Oh sorry did I close it? Is it on a separate thing? Oh cheers.
+Which command did you want to see?
+Git status. Space. Perfect. And enter. So you'll see on branch main, your branch is up to date with origin forward slash main. Slash main, nothing to commit, working tree clean. This is a lot of information. Your branch main. That means locally, your branch is up to date with origin forward slash main. That's talking about the cloud. It's saying, you have no changes compared to the cloud, you're totally set. And then commit, that's another thing that we're going to get into. So the next thing we're going to do.
+But basically, there's nothing going on here. So just remember that if you go back to cursor, each of you are going to create a file. You can add whatever the heck you want into it. And you'll just go like, new. Let me open this project for you, girly.
+So you're going to go new file. File. Where even is that? New file. You can name it whatever the heck you want. Perfect. And now you can type in here whatever you want. You can type anything; doesn't matter. It's just for testing purposes. Good job! Now do you remember what I said to you about spaces? Computers hate spaces; don't use spaces.
+When you're making files, when you're making folder names, spaces are the devil to computers. If you can avoid a space in all file names, I would do it. Now you've created a new file. Now go git status again in your terminal.
+See, there's something there. See that little red file, which is the file you just made. Now if you go back here, if you type 'get status' again. See that? Now there's this concept of untracked files. See that? Get space status. Enter. See that? This says you're still on branch main. Your branch is still up to date with origin main because we haven't changed anything in the cloud.
+Your untracked files use git add file to include what will be committed. So git add is another command. Adding is another command, and then commit is basically like a very GitHub developer specific word. Adding means that you can add a file, and then committing means that you are now saying hey all of these changes that I just added, I am committing to the fact that I want these changes. And then after commit, then you push. And then pushing takes these files and moving them up to the cloud. So think about like committing is basically like hard saving, like you're saving all the files. They're all technically like saved locally, but they're not saved in the context of like updating it to GitHub. So it's sort of like a soft save instead of like a hard save.
+How about Lydia? Can you run git add your file name and then the file name space and then the file name. Just do the space and then the file name. Perfect. And then did it? And then if you run git status again.
+Awesome, then it see now it's green. New file, right? So now GitHub is like okay I know what I am doing. So now the next step is to run git commit. If you write git space commit, and then dash m just means like oh, I want to add a message to this. And then the message is like basically describing what you just added or what you just committed. You could just do like perfect. Good job. You could just do like um so it you want to do it in aum brackets because it's annoying. You could just be like test file basically. But like if you're working on like a big feature and then press enter, okay, brilliant see how it says one file changed.
+Why is it? Why is it my dad's?
+I actually have.
+No idea why it's your dad's name. That's just, we can fix that. That'll just be on GitHub.
+I that'll just be on GitHub. So funny. Like Josh doesn't understand GitHub. Now Lydia you run git push? Git space push. Oh put in your login password. That's fine. No for your keychain for your Mac. Just press allow just for now.
+Great. Now. What?
+Why is it because it's mine? But it's public, should be fine. One sec guys.
+Can everybody try git pull again?
+We get pull? Git space pull.
+Up to date. Did you guys see new changes being pulled down? Did you get new file changes? Do you see the app file?
+That should be fine. Now go to your cursor.
+Sorry. Who did you run git pull? You did it there and you're reading and you're right. You have to do read and write on the other side.
+What the fuck. Sorry, one second. 
+Now it's there. Soum.
+It's gonna say, so see it says you have divergent branches and you need to specify how to reconcile them. That's just because you guys have never pulled anything before. That's why this is popping up. If you just copy the git config pull.rebase equals false, just copy that and then run that as a command in the terminal. So just copy and then paste it into the terminal. You don't have this issue cause you're great. Did it work? Yeah, see cause you've done it before. Great. And then cf cheers. Great.
+Cool. Now run get pull again. Now you just go here. This just closes this. So I know that was kind of boring, but now we have successfully created a repository in the cloud, added information to it, pushed to it and then pulled from it. Okay? So now what you're going to do is you're all gonna go install Claude on the command line. So go to like Claude dot whatever. Or like I don't know what the website is. You already have it? You guys have it? Okay great. Now just write on the comm- Have you ever run Claude from the command line? No? Now that you're in this folder, you can just type claude enter. And then Claude will open up on the terminal.
+so you don't have it installed. Do you have it installed? so just go to Claude AI. Cheeky cheers, do you have terminal Claude installed? You don't know Claude. So go to claude dot ai dot com. On the browser.
+Great question. So no. So now we're going to download it. Now you guys are going to be cool. Here, terminal. Terminal You're going to run that Cool Brilliant Copy that, paste that into your terminal.
+Go to claude dot ai and then download it.
+And then just go to downloads.
+Oh no
+Sorry. I mean the Claude downloads.
+Wait, I'm sorry, I'm giving you very confusing instructions. Just like claude dot ai forward slash downloads like the website. So you're just going to download it to the terminal. And then what just space like downloads.
+Not cursor. Just scooch down. Perfect. Go there.
+Scooch down.
+So you don't want to download the SSO app. Keep going Claude. Environments terminal, you want to install terminal. Very cool. Terminal, curl. Curl just means command url. This just means that it's like basically doing an internet request at that url. Awesome and now copy paste that url into there and then press enter.
+And did it download for you guys? Now what is it telling you to do? Now next run cloud dash h shop. You're already far ahead, babe. I know, I'm sorry. Installing.
+And now there's all these instructions of Claude. So see how this set up? Usually when you download something, it will tell you what you need to do. You just need to read. See how it says native installation exists but it's not on your path? Now you need to run this. Literally just copy paste this and run that, and then it'll fix it for you.
+Very cool. Awesome. Now you have it. See? Cheers. Now just type clod enter. Clod enter? Right there, clod enter. Space? Space enter like actually.
+You need to run this. See it says setup notes. It's kind of annoying to see. Okay so just follow the steps to get it started.
+Oh you just didn't copy it all.
+There you go. Not all the way. Whatever you want. Now you can choose a mode and all these different things. I'm in dark mode already. And then the next thing that you're going to do, and this is your guys's homework.
+Dark mode color one for me.
+Seriously. The next thing you're going to do is now ask Claude to teach you GitHub and Git and setting up a repository.
+Teach me terminal basics and setting up a repository on GitHub. You have a cloud account? Yes, that'll be fine now you can just authorize it.
+Terminal. And what? Just let's do it like teach me terminal commands. Enter. Happy to! Let me demonstrate a few live in your project folder, so you can see the real output.
+So let's just start off with terminal commands. What now? Now you just read and you learn, Abby, you learn. Oh my gosh. I know. You got Claude set up? Just use recommended settings that's fine. You're good? And then, yeah, you want to trust the folder that it's in. Here guys. So sorry, the whole reason I made you go through that very boring thing is that I am sorry, because I know that this very boring. This like the bread and butter, most important underlying infrastructure thing for setting up all of this AI stuff and doing it the right way. Okay? If you guys can make GitHub repositories, set up your AI effectively and connect this.
+Now that you have Claude, Claude can do everything for you. Now it can handle literally everything else. But just getting your Claude set up in the right way so that it's running locally and understanding the cloud versus multiple people. And these commands and using the terminal, that's going to make you actually know what the heck you're doing. So now you can ask Claude to teach you about the concepts we learned today. Ha! Like the terminal and Git commands and running Git. Okay?
+And then ask you for a cheat sheet and some worksheets. Or you don't have to do what I'm telling you to do, but that's gonna be the most important thing. Ask Claude to teach you about running terminal commands and running GitHub commands and how GitHub works, and how Git works. And just mess around with it.
+I'm gonna go to the bathroom really quick.
+Okay, perfect, and yeah, we'll leave in like fifteen minutes. Oh.
+I think you're fine. I'm gonna go sit in one of those chairs. Come hang.
+A few like two blocks down from the ice cream place we were at? There's the river, like the little park.
+Down there. I hate taking pictures. I don't know why. I just feel like they're so awkward.
+I actually hate taking photos too.
+Aww, you're so pretty! I was taking pictures of Lydia and accidentally took one of you You're so silly! You're so silly!
+Fine! And I love those! Aww
+This one with the she wants my ice cream.
+Yummy. We should go back to that ice cream place sometime. That was so good.
+I know I haven't had frozen yogurt in so long.
+The hot pot place we're going to, they have little robots that bring out your food. I thought your dad was joking.
+No Oh my god. But I don't know if they will hold for a big party. Hey do you know if Rachel's coming to dinner? Think so, I don't think so. But Liz is right. Mhm. So how's your day been?
+Wait, actually really good. Just a little bit crazy. How's your bit day been? Pretty good.
+Do you wanna see it? I'm pretty sure.
+That looks yummy. Wait, let me find the right one. I love hot pot, I'm excited.
+It's a hot pot place but they also have a buffet.
+That's how you get your food? The little machine comes around and gives it to you.
+And then, it has a timer, a hundred seconds, and you have to take all of your food off and send it away. They're just going around the building. It's so funny. They'll talk to you.
+Here. It's.
+Sad because his route is blocked.
+That's pretty cool. I'd have to put my feet up.
+That's nice. She just cracked my back and it actually felt so good.
+Oh really? She needs to do that to my back.
+What. It's been a long day.
+Oh excuse me.
+Let's see the label. It's in your mom's garbage. You guys jab it back. I think I still have the red mark.
+You call me Serena.
+She totally knows her game. How would she know? I could totally pick up anyone in here. If by that you mean lift her up, Riley, yes, I think anyone in here if I can get their number, I can walk her home. If I fail.
+How are you? It's been. When was the last time we saw each other? Oh let's see if he comes.
+Ever since the coma, I have had a really hard time placing names and faces.
+So who are you? I am so sorry. It was just a clever way to try to approach you. We don't know each other.
+Do you guys know how to use the command line? Get Claude to teach you more.
+It's important, I promise. Next lesson is going to be onboarding. You guys will be working on the actual things that you're going to be building.
+Ooh, I have low blood pressure. What? Low blood pressure.
+Drink some juice. Where's my cereal? I feel like that's the same thing, isn't it? No. It's not. Wait, what'd you do today? How was your day?
+I couldn't sleep at all and woke up really early to go to church. How long does church last?
+An hour. Forty minutes. That was almost two hours. From one to when, like nine to eleven?
+Ten to eleven forty-five.
+Oh really? That's long.
+Really? Four-hour services on Sunday at night. That's crazy. Done.
+What's the longest church service you've ever been to?
+You excited? You said that a robot brings you food and I was like, "Oh, that's just a Josh Rosenthal joke," but no, you're being serious. That is true.
+Yay. He's coming again. Keith is. Keith has no aura. Keith has the most aura. Are you joking? Keith has the most aura? No. Keith's got more dead than. No. Keith is amazing. You know who has the most? Brock. Well yeah but listen nobody can even compete with Brock's aura. You can't even try. But I'll say Keith's pretty up there.
+Stop it, Carrie. It's not true.
+You guys just don't have taste. Well Liz has a huge. Oh of course Liz has more aura. But Liz has a ton of aura.
+You have the most aura.
+It's actually the best thing ever. You should feel so complimented.
+I forgot about it. This Was because I think you captured the whole class. It was great. I will send that to you. I will send you the whole transcript to this.
