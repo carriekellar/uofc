@@ -34,4 +34,4 @@ The intended flywheel is:
 
 ## Current state
 
-The supplied material documents an early live pilot, a proposed operating structure, five Berea opportunity categories, a broader community-revitalization thesis, and the creative direction for a companion podcast. The first operational prototype handoff—Land and Earn—is now indexed under P-003 with its pinned worktree commit, technical evidence, and remaining production gates. Capacity, pricing, legal structure, child-safety policy, and shared platform architecture remain hypotheses until validated.
+The supplied material documents an early live pilot, a proposed operating structure, five Berea opportunity categories, a broader community-revitalization thesis, and the creative direction for a companion podcast. Operational handoffs now index Land and Earn, CME Atlas, and FundGuide as separate products with pinned source history, deployment identity, technical evidence, and remaining production gates. Capacity, pricing, legal structure, child-safety policy, and shared platform architecture remain hypotheses until validated.

@@ -16,6 +16,7 @@
 | Handoff commit | `168f897fcb54c48705a3e3564cf9679c7728b352` |
 | Local UI | `http://localhost:3001/` while the handed-off development server is available |
 | Dashboard API | `/api/dashboard` |
+| Sites identity | The shared PRI checkout’s `.openai/hosting.json` currently points to the private Sites project serving Land & Earn |
 
 ## Product purpose
 
@@ -60,3 +61,4 @@ The worktree contains:
 4. Approve the AI provider and sensitive-data terms before any real youth or payroll records reach a model.
 5. Verify hosted allowlists, backup/restore, incident response, data residency, breach notification, and retention/disposition operations.
 6. Replace the generic starter README with project-specific setup and operating instructions.
+7. Preserve the separate CME Atlas and FundGuide source/deployment identities documented in the [PRI topology handoff](../cme-atlas/handoff-log.md).

@@ -28,3 +28,7 @@ Handoff supplied by the user:
 - A non-mutating HTTP probe from the UofC task shell did not reach the local server (`000`). No restart, process inspection, or other server intervention was attempted, in accordance with the handoff.
 
 The HTTP results in the handoff are stored as the operator’s verified state at handoff time; runtime availability is not treated as a permanent property.
+
+## Related PRI topology handoff
+
+The later [CME Atlas/PRI repository handoff](../cme-atlas/handoff-log.md) confirms that the shared checkout’s `.openai/hosting.json` points to the private Sites project currently serving Land & Earn. This hosting link must not be interpreted as a CME Atlas destination.

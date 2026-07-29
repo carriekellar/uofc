@@ -26,6 +26,20 @@ This section is the operating index for UofC client work. It answers four questi
 | P-002 | Bookkeeping workflow tool | Jenny | Lydia | Existing prototype is mentioned; files not supplied | [Record](jenny-bookkeeping/project.md) | [Technical](jenny-bookkeeping/technical-design.md) | [Review](jenny-bookkeeping/production-review.md) |
 | P-003 | Land and Earn Grant Operations Assistant | Ishmel / Baxus; PRI relationship to confirm | JL | Clean prototype handoff at commit `168f897`; synthetic-data verification documented | [Record](ismailia-pri/project.md) | [Technical](ismailia-pri/technical-design.md) | [Review](ismailia-pri/production-review.md) |
 | P-004 | Independent-practitioner credentialing | Nancy | AJ | Credentialing project is described; clinical venture remains separately governed | [Record](nancy-credentialing/project.md) | [Technical](nancy-credentialing/technical-design.md) | [Review](nancy-credentialing/production-review.md) |
+| P-005 | CME Atlas | Continuing medical education activity discovery | Unassigned | Clean handoff at `48113a6`; local builds/tests and live ACCME query documented | [Record](cme-atlas/project.md) | [Technical](cme-atlas/technical-design.md) | [Review](cme-atlas/production-review.md) |
+| P-006 | FundGuide | Funding-allocation review assistant | Unassigned | Existing Vercel production; recoverable source at `58a841f`; current `main` is not FundGuide | [Record](fundguide/project.md) | [Technical](fundguide/technical-design.md) | [Review](fundguide/production-review.md) |
+
+## PRI repository deployment topology
+
+Three products share history or hosting links around `/Users/carringtonhaykellar/candur/pri`, but they are operationally separate:
+
+| Product | Authoritative source state | Hosting state | Prohibited assumption |
+|---|---|---|---|
+| CME Atlas | `main` at handoff `48113a6` | no confirmed production deployment | the linked Vercel or Sites projects are not CME Atlas |
+| FundGuide | recover from ancestor `58a841f` into a separate branch/worktree | public Vercel deployment at `fundguide-prototype.vercel.app` | current `main` must not be deployed over it |
+| Land and Earn | `feature/land-and-earn-prd` worktree, handed off at `168f897` | private Sites project currently titled Land & Earn | CME Atlas must not be published to this Sites project |
+
+Before any deployment, name both the product and destination explicitly. The safe default for CME Atlas is a new hosting project.
 
 ## Internal platform
 

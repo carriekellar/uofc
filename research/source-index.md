@@ -71,6 +71,14 @@ The document defines practical labs, measurable outcomes, model distinctions and
 
 Use as the authoritative UofC core teaching specification. Domain modules and individual client projects may extend it but should not weaken its security, verification, documentation, or operational requirements.
 
+## S9 — CME Atlas / PRI repository handoff
+
+[`UofC handoff record`](../projects/cme-atlas/handoff-log.md), [`external HANDOFF.md`](/Users/carringtonhaykellar/candur/pri/HANDOFF.md), and [`external AGENTS.md`](/Users/carringtonhaykellar/candur/pri/AGENTS.md)
+
+Pinned at `48113a6bab4980a534512132a46330eb7d3e3456`, this handoff establishes that the PRI repository’s current `main` source is CME Atlas while its machine-local Vercel link serves FundGuide and its Sites configuration points to Land and Earn. It includes architecture, verification commands/results, linked-worktree topology, known risks, FundGuide recovery from `58a841f`, and an explicit prohibition on cross-product deployment.
+
+Use with care: the local/live verification figures are a July 28 snapshot and the ACCME result count changes over time. FundGuide’s live deployment has not been audited from its recovered source, and CME Atlas has no confirmed production destination.
+
 ## Synthesis policy
 
 Repository documents use these sources to make the ideas operational. Recommendations—such as the pilot sequence, capacity ramp, safety gates, podcast structure, and 90-day plan—are proposed synthesis, not claims that those decisions have already been made.
