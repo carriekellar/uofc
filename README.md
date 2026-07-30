@@ -31,6 +31,17 @@ The intended flywheel is:
 - [`relationships/README.md`](relationships/README.md) — lightweight relationship CRM
 - [`research/source-index.md`](research/source-index.md) — provenance, source quality, and imported source files
 - [`data/berea-small-business-ai-opportunities.csv`](data/berea-small-business-ai-opportunities.csv) — the supplied opportunity matrix and public contact details
+- [`.agents/skills/prototype-implementation/SKILL.md`](.agents/skills/prototype-implementation/SKILL.md) — repository-local agent skill for building scoped clickable prototypes
+
+## Repository-local agent skill
+
+Agents that support repository-local skills can discover **Prototype Implementation** after cloning this repository and opening the UofC checkout. Invoke it explicitly with:
+
+```text
+Use $prototype-implementation to build the approved prototype scope.
+```
+
+The skill enforces a frontend-only, mock-data prototype boundary and requires verification, documentation, honest limitation labeling, and an unambiguous preview destination.
 
 ## Current state
 

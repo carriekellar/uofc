@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prototype Implementation"
+  short_description: "Build fast, clickable frontend prototypes"
+  default_prompt: "Use $prototype-implementation to build a clickable frontend prototype from the approved scope."
