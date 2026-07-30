@@ -31,17 +31,26 @@ The intended flywheel is:
 - [`relationships/README.md`](relationships/README.md) — lightweight relationship CRM
 - [`research/source-index.md`](research/source-index.md) — provenance, source quality, and imported source files
 - [`data/berea-small-business-ai-opportunities.csv`](data/berea-small-business-ai-opportunities.csv) — the supplied opportunity matrix and public contact details
+- [`.agents/skills/prototype-discovery-client-onboarding/SKILL.md`](.agents/skills/prototype-discovery-client-onboarding/SKILL.md) — converts discovery evidence into an approved prototype scope and onboarding handoff
 - [`.agents/skills/prototype-implementation/SKILL.md`](.agents/skills/prototype-implementation/SKILL.md) — repository-local agent skill for building scoped clickable prototypes
 
-## Repository-local agent skill
+## Repository-local agent skills
 
-Agents that support repository-local skills can discover **Prototype Implementation** after cloning this repository and opening the UofC checkout. Invoke it explicitly with:
+Agents that support repository-local skills can discover both skills after cloning this repository and opening the UofC checkout.
+
+Start after a client discovery meeting:
+
+```text
+Use $prototype-discovery-client-onboarding to turn these discovery materials into a prototype scope and implementation handoff.
+```
+
+Then implement the approved handoff:
 
 ```text
 Use $prototype-implementation to build the approved prototype scope.
 ```
 
-The skill enforces a frontend-only, mock-data prototype boundary and requires verification, documentation, honest limitation labeling, and an unambiguous preview destination.
+Together, the skills preserve source traceability, distinguish approved work from assumptions, track onboarding truthfully, enforce a frontend-only mock-data boundary, and require honest limitation labeling and an unambiguous preview destination.
 
 ## Current state
 

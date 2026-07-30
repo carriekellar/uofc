@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prototype Discovery & Client Onboarding"
+  short_description: "Turn discovery calls into prototype handoffs"
+  default_prompt: "Use $prototype-discovery-client-onboarding to turn this client discovery material into a prototype scope and implementation handoff."
